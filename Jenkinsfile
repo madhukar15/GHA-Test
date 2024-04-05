@@ -9,6 +9,7 @@ pipeline {
             steps {
                 script {
                     // Execute Docker Compose commands or scripts to start your application on server 1
+                    echo "hello"
                     sh 'docker-compose up -d'
                 }
             }
