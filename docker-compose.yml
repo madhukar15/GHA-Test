@@ -5,6 +5,6 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile  # Path to your Dockerfile
-    image: myapp:latest  # Specify the name and tag for your image
+    image: myapp:lates  # Specify the name and tag for your image
     ports:
       - "8080:8080"  # Example port mapping
