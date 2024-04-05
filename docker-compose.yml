@@ -1,9 +1,10 @@
 version: '3'
 
 services:
-  nginx:
-    image: nginx:latest
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile  # Path to your Dockerfile
+    image: myapp:latest  # Specify the name and tag for your image
     ports:
-      - "80:80"
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - "8080:8080"  # Example port mapping
