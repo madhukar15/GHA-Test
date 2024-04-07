@@ -123,7 +123,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			<!-- JaCoCo Maven Plugin -->
+			<!-- JaCoCo Maven Plugin required for code coverage of sonarqube-->
 			      <plugin>
 			        <groupId>org.jacoco</groupId>
 			        <artifactId>jacoco-maven-plugin</artifactId>
